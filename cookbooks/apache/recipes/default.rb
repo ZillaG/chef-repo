@@ -5,9 +5,4 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 #
 
-package 'httpd'
-
-service 'httpd' do
-  supports :status => true
-  action :start
-end
+include_recipe 'apache::install_apache'
