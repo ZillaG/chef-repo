@@ -1,4 +1,4 @@
-name 'apache'
+name 'cf_apache'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'

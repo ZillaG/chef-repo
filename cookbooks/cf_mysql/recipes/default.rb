@@ -1,5 +1,5 @@
 #
-# Cookbook:: mysql
+# Cookbook:: cf_mysql
 # Recipe:: default
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.

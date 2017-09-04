@@ -1,4 +1,4 @@
-name 'mysql'
+name 'cf_mysql'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
