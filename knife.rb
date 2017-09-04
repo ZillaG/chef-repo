@@ -14,3 +14,10 @@ client_key               "#{ENV['HOME']}/.chef/cfoutsclass.pem"
 
 chef_server_url          "https://api.chef.io/organizations/cfchefclass"
 cookbook_path            "#{ENV['HOME']}/chef-repo/cookbooks"
+
+cache_type               "BasicFile"
+cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
+
+cookbook_copyright       "Foutsation, Inc."
+cookbook_license         "apache2"
+cookbook_email           "user@isp.com"
