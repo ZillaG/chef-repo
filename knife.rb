@@ -21,3 +21,5 @@ cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
 cookbook_copyright       "Foutsation, Inc."
 cookbook_license         "apache2"
 cookbook_email           "user@isp.com"
+
+knife[:editor]="vim"

@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+source 'https://supermarket.chef.io'
+
+metadata
+
+cookbook 'cf_apache', '~> 0.1.0', github: "ZillaG/chef-repo", rel: 'cookbooks/cf_apache'
+
